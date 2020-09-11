@@ -70,11 +70,25 @@
 			color: grey;
 
 		}
+		/*----second nav elements --*/
+		.list-items{
+			padding: 8px;
+		}
+		.list-items a{
+			text-decoration: none;
+			padding: 20px;
+			color: black;
+			border-bottom: dotted;
+			
+			float: right;
+			
+
+			}
 
 		.flex-container{
 			float: left;
 			flex-direction: row;
-			width: 65%
+			width: 65%;
 		}
 		.flex-container > div{
 			background-color: white;
@@ -94,12 +108,13 @@
 		.box {
 			height: 500px;
 			display: flex;
+			position: static;
 			
 		}
 
 		.logo-img {
-			height: 20px;
-			width: 30px;
+			height: 50px;
+			width: 50px;
 			left: 3px;
 		}
 		/*--second navbar--*/
@@ -108,8 +123,28 @@
 			width: 100%;
 			height: 75px;
 			display: flex;
-			border-bottom: 2px solid black;
+			/*border-bottom: 2px solid black;*/
 			background-color: grey;
+			justify-content: space-between;
+
+		}
+
+
+		.pmimg {
+			height: 120px;
+			width: auto;
+		}
+
+
+		.container-1 {
+			width: 100px;
+		}
+
+
+		
+		 
+		
+		
 
 
 	</style>
@@ -133,6 +168,8 @@
 
 
 	<!-- Fisrt Nav Header-->
+
+	
 	<div class="flex-conatiner">
 	<div>
 		<nav>
@@ -152,15 +189,22 @@
 			</ul>
 		</nav>
 	</div>
+
+
 	<!--big image-->
+
+
+
 	<div class="box">
 		<img id="image" src="assets/img/dengue.jpg">
 	</div>
 	</div>
 
 	<div>
-		&nbsp; &nbsp; &nbsp;
+		&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
 	</div>
+
+
 	<!---second navbar--->
 	<div class="nav">
 		<div class="logo">
@@ -173,12 +217,32 @@
 				<li class="list-items"><a href="#">শিক্ষকের তথ্য</a></li>
 				<li class="list-items"><a href="#">প্রকাশনা </a></li>
 				<li class="list-items"><a href="#">ফটো গ্যালারি</a></li>
-				<li class="list-items"><a href="#"></a>রেজাল্ট</li>
-				<li class="list-items"><a href="#"></a>ডাউনলোড</li>
-				<li class="list-items"><a href="#"> NTVQF ওয়েভসাইট</a></li>
+				<li class="list-items"><a href="#">রেজাল্ট </a></li>
+				<li class="list-items"><a href="#">ডাউনলোড</a></li>
+				<li class="list-items"><a href="#">NTVQF ওয়েভসাইট </a></li>
+				<li class="list-items"><a href="#">তথ্য প্রাপ্তির জন্য যযোগাযোগ</a></li>
+
 			</ul>
 		</div>
 	</div>
+
+
+
+<div class="container-1">
+		<div class="seg-pm">
+			<img src="assets/img/pm.jpeg" class="pmimg">
+		</div>
+</div>
+	
+	
+<div class="container-2">
+<div class="sidebar"></div>
+<div class="sidebar1"></div>
+<div class="sidebar2"></div>
+<div class="sidebar3"></div>
+<div class="sidebar4"></div>
+<div class="sidebar5"></div>
+</div>
 
 
 
